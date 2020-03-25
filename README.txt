@@ -9,6 +9,12 @@ on cloud platforms. This repo can be used as reference by anyone including other
 DevOps students and Trainers to improve their skills in Infrastructure-as-a-code
 projects.
 
+Cloudformation is a service provided by AWS used to create an infrastructure of
+AWS services from template files. Cloudformation can be used to spin up new EC2
+instances and create the VPC network surrounding them. The services created from these
+templates are called Stacks and can be updated and deleted from the Cloudformation
+console on AWS.
+
 The reason I think that AWS Cloudformation is a worthwhile tool to learn is that
 it's existence is specifically to keep AWS infrastructure creation as DRY (Don't Repeat Yourself)
 as possible. By having templates on stand-by we can spin up infrastructure on AWS
